@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.db
+*.csv
+*.json
+!package.json
+!tsconfig.json
+.vite/
+*.tsbuildinfo
+.turbo/
+apps/web/src/wasm-base64.ts
+
+# 参考项目源文件（数据格式研究用，不参与构建）
+/references/

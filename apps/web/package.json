@@ -1,0 +1,26 @@
+{
+  "name": "@timer-bridge/web",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@timer-bridge/adapter-cstimer": "workspace:*",
+    "@timer-bridge/adapter-dctimer": "workspace:*",
+    "@timer-bridge/adapter-twistytimer": "workspace:*",
+    "@timer-bridge/core": "workspace:*",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
